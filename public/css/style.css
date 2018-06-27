@@ -1,0 +1,47 @@
+#square {
+  position: absolute;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%, -50%);
+       width: 40%;
+       height: 80%;
+       padding: 20px;
+       background: #c28946;
+       color: white;
+       text-align: center;
+       box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+       border:6px solid #772E32;
+       outline-color:#772e32;
+       outline-style:groove;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: -15px;
+  color: black;
+  font-weight:bolder;
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding:5px;
+  background-color:#c4c4a5;
+}
+
+
+
+body {
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/oldMap.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+
+.country-label {
+  color: #654321;
+}
+
+.country-data {
+  color: black;
+}
